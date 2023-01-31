@@ -3,8 +3,15 @@
   "displayName": "react-native-stylesheet-color-palette",
   "description": "Displays color palette for rect-native styles only",
   "version": "1.0.0",
+  "publisher": "rajd",
+  "icon": "logo.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.74.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rajdeepdebnath/vscode_ext_react-native-color-highlight"
   },
   "main": "dist/extension.js",
   "scripts": {
@@ -16,7 +23,8 @@
     "Programming Languages"
   ],
   "activationEvents": [
-    "onLanguage:javascript"
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact"
   ],
   "dependencies": {
     "d3-color": "^3.1.0"
