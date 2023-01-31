@@ -1,0 +1,27 @@
+{
+  "name": "react-native-stylesheet-color-palette",
+  "displayName": "react-native-stylesheet-color-palette",
+  "description": "Displays color palette for rect-native styles only",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "main": "dist/extension.js",
+  "scripts": {
+    "compile": "node ./build.js",
+    "watch": "node ./build.js --watch",
+    "publish": "node ./build.js --production"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript"
+  ],
+  "dependencies": {
+    "d3-color": "^3.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.17.5"
+  }
+}
