@@ -1,7 +1,7 @@
 {
   "name": "react-native-stylesheet-color-palette",
   "displayName": "react-native-stylesheet-color-palette",
-  "description": "Displays color palette for rect-native styles only",
+  "description": "Displays color palette for react-native styles only",
   "version": "1.0.0",
   "publisher": "rajd",
   "icon": "logo.png",
@@ -24,7 +24,9 @@
   ],
   "activationEvents": [
     "onLanguage:javascript",
-    "onLanguage:javascriptreact"
+    "onLanguage:javascriptreact",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact"
   ],
   "dependencies": {
     "d3-color": "^3.1.0"
